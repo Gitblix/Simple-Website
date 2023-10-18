@@ -1,0 +1,76 @@
+/* NOTE: body * ---: Means the colour OR changes will be only within the container.
+      * body ---: Means the colour OR changes will be outside the container.  */
+
+      /* VIDEO 13 */
+* body {
+    background-color: brown;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5%;
+}
+
+.section{
+    background-color: blueviolet;
+    height: 100vh;
+}
+/* vh for the height dimenstion means to force the height because 100% did not work but 100vh worked out */
+
+.data{
+    background-color: white;
+    padding: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.Home{
+    margin: 20px;
+    padding: 10px;
+    text-decoration: none;
+}
+/* NOTE:text-decoration removes the underlined on the texts */
+
+.Home:hover{
+    background-color: olivedrab;
+    padding: 11px;
+    border-radius: 10px;
+    color: blue
+    
+}
+
+/* .Home:active{
+background-color: darkorchid;
+} */
+
+/* VIDEO 14 */
+.image{
+    border-radius: 90%;
+}
+
+.text{
+    color: whitesmoke;
+    font-weight: bolder;
+    background-color: teal;
+    padding: 22px;
+    border-radius: 20px;
+}
+
+.text:hover{
+    background-color:lightcoral;
+    cursor: pointer;
+    color: black;
+}
+
+.paragraph{
+    color: white;
+    font-size: 160%;
+}
+
+.link{
+    color: white;
+    font-size: x-large;
+}
+/* .link:hover{
+    background-color:lightcoral;
+    cursor: pointer;
+    color: black; */
